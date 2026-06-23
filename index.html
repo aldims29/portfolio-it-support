@@ -2,105 +2,141 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>FixLab IT Support</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT Support Freelance</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap
 
 <style>
-body{
-  margin:0;
-  font-family:'Poppins',sans-serif;
-  background:#020617;
-  color:white;
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg,#020617,#0f172a);
+  color: white;
 }
 
-/* ANIMASI */
-.fade-up{
-  opacity:0;
-  transform:translateY(30px);
-  transition:0.8s;
-}
-.fade-up.show{
-  opacity:1;
-  transform:translateY(0);
+header {
+  text-align: center;
+  padding: 60px 20px;
 }
 
-/* HEADER */
-header{
-  text-align:center;
-  padding:80px 20px;
-  background:linear-gradient(135deg,#0f172a,#020617);
-}
-h1{
-  font-size:2.5em;
-  color:#38bdf8;
+h1 {
+  font-size: 2.5em;
+  color: #38bdf8;
 }
 
-/* BUTTON */
-.btn{
-  background:#38bdf8;
-  padding:12px 20px;
-  border-radius:10px;
-  color:black;
-  text-decoration:none;
-  display:inline-block;
-  transition:0.3s;
-}
-.btn:hover{
-  transform:scale(1.1);
+.btn {
+  background: #38bdf8;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/* SECTION */
-.section{
-  padding:50px 20px;
-  max-width:1000px;
-  margin:auto;
+section {
+  padding: 40px 20px;
 }
 
-/* CARD */
-.card{
-  background:#1e293b;
-  padding:20px;
-  border-radius:12px;
-  margin:10px;
+.container {
+  max-width: 900px;
+  margin: auto;
 }
 
-/* GRID */
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-  gap:15px;
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 15px 0;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
 }
 
-/* GALERI */
-.gallery img{
-  width:100%;
-  border-radius:10px;
-  transition:0.3s;
-}
-.gallery img:hover{
-  transform:scale(1.05);
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
 }
 
-/* VIDEO */
-video{
-  width:100%;
-  border-radius:10px;
+@media(max-width:600px){
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-/* FOOTER */
-footer{
-  text-align:center;
-  padding:20px;
-  opacity:0.5;
+.footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.6;
 }
 </style>
 </head>
 
 <body>
 
-<header class="fade-up">
-  <h1>FixLab IT Support</h1>
-  <p>Jasa IT Support Cepat & Terpercaya 🔧</p>
+<header>
+  <h1>ALDI MAULANA SAPUTRA</h1>
+  <p>IT Support Freelance</p>
   <br>
+  https://wa.me/6283891954002💬 Chat WhatsApp</a>
+</header>
+
+<section>
+  <div class="container">
+
+    <h2>💼 Tentang Saya</h2>
+    <div class="card">
+      <p>
+        IT Support berpengalaman dalam troubleshooting PC, jaringan, dan remote support.
+        Siap membantu masalah IT dengan cepat, aman, dan profesional.
+      </p>
+    </div>
+
+    <h2>🛠️ Layanan</h2>
+    <div class="grid">
+      <div class="card">Install ulang Windows</div>
+      <div class="card">Setup WiFi & jaringan</div>
+      <div class="card">Remote support</div>
+      <div class="card">Install software</div>
+      <div class="card">Optimasi laptop lemot</div>
+      <div class="card">Virus cleaning</div>
+    </div>
+
+    <h2>🔥 Paket Harga</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Basic</h3>
+        <p>Rp50K</p>
+        <p>Fix ringan + cek</p>
+      </div>
+      <div class="card">
+        <h3>Standard</h3>
+        <p>Rp100K</p>
+        <p>Install + optimasi</p>
+      </div>
+      <div class="card">
+        <h3>Premium</h3>
+        <p>Rp150K</p>
+        <p>Full service + backup</p>
+      </div>
+    </div>
+
+    <h2>⭐ Testimoni</h2>
+    <div class="card">
+      <p>"Laptop gue jadi ngebut lagi 🔥 Recommended!"</p>
+    </div>
+
+    <h2>📞 Kontak</h2>
+    <div class="card">
+      <p>WhatsApp: 083891954002</p>
+      <p>Instagram: @a_maulanasaputra29</p>
+    </div>
+
+  </div>
+</section>
+
+<div class="footer">
+  © 2026 IT Support Freelance
+</div>
+
+</body>
+</html>
