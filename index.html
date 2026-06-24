@@ -3,140 +3,92 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IT Support Freelance</title>
+<title>IT Support Portfolio</title>
 
-https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap
+<link rel="stylesheet" href="style.css">
 
-<style>
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg,#020617,#0f172a);
-  color: white;
-}
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-header {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-h1 {
-  font-size: 2.5em;
-  color: #38bdf8;
-}
-
-.btn {
-  background: #38bdf8;
-  padding: 12px 20px;
-  border-radius: 10px;
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-section {
-  padding: 40px 20px;
-}
-
-.container {
-  max-width: 900px;
-  margin: auto;
-}
-
-.card {
-  background: #1e293b;
-  padding: 20px;
-  border-radius: 15px;
-  margin: 15px 0;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-}
-
-@media(max-width:600px){
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.footer {
-  text-align: center;
-  padding: 20px;
-  opacity: 0.6;
-}
-</style>
 </head>
-
 <body>
 
+<div class="bg"></div>
+
 <header>
-  <h1>ALDI MAULANA SAPUTRA</h1>
-  <p>IT Support Freelance</p>
-  <br>
-  https://wa.me/6283891954002💬 Chat WhatsApp</a>
+
+<h1>Aldi Maulana Saputra</h1>
+
+<p><span class="typing"></span></p>
+
+<a href="#about" class="btn">
+Explore More
+</a>
+
 </header>
 
-<section>
-  <div class="container">
+<section id="about">
 
-    <h2>💼 Tentang Saya</h2>
-    <div class="card">
-      <p>
-        IT Support berpengalaman dalam troubleshooting PC, jaringan, dan remote support.
-        Siap membantu masalah IT dengan cepat, aman, dan profesional.
-      </p>
-    </div>
+<h2>Tentang Saya</h2>
 
-    <h2>🛠️ Layanan</h2>
-    <div class="grid">
-      <div class="card">Install ulang Windows</div>
-      <div class="card">Setup WiFi & jaringan</div>
-      <div class="card">Remote support</div>
-      <div class="card">Install software</div>
-      <div class="card">Optimasi laptop lemot</div>
-      <div class="card">Virus cleaning</div>
-    </div>
+<div class="card">
+IT Support yang berfokus pada troubleshooting, networking, hardware maintenance dan user support.
+</div>
 
-    <h2>🔥 Paket Harga</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Basic</h3>
-        <p>Rp50K</p>
-        <p>Fix ringan + cek</p>
-      </div>
-      <div class="card">
-        <h3>Standard</h3>
-        <p>Rp100K</p>
-        <p>Install + optimasi</p>
-      </div>
-      <div class="card">
-        <h3>Premium</h3>
-        <p>Rp150K</p>
-        <p>Full service + backup</p>
-      </div>
-    </div>
-
-    <h2>⭐ Testimoni</h2>
-    <div class="card">
-      <p>"Laptop gue jadi ngebut lagi 🔥 Recommended!"</p>
-    </div>
-
-    <h2>📞 Kontak</h2>
-    <div class="card">
-      <p>WhatsApp: 083891954002</p>
-      <p>Instagram: @a_maulanasaputra29</p>
-    </div>
-
-  </div>
 </section>
 
-<div class="footer">
-  © 2026 IT Support Freelance
+<section>
+
+<h2>Skill</h2>
+
+<div class="skill">
+Windows
+<div class="bar">
+<div class="fill w90"></div>
 </div>
+</div>
+
+<div class="skill">
+Networking
+<div class="bar">
+<div class="fill w80"></div>
+</div>
+</div>
+
+<div class="skill">
+Hardware
+<div class="bar">
+<div class="fill w85"></div>
+</div>
+</div>
+
+</section>
+
+<section>
+
+<h2>Project</h2>
+
+<div class="container">
+
+<div class="project">
+<h3>Helpdesk Ticketing</h3>
+<p>Support dan troubleshooting user.</p>
+</div>
+
+<div class="project">
+<h3>Network Maintenance</h3>
+<p>Konfigurasi dan monitoring jaringan.</p>
+</div>
+
+<div class="project">
+<h3>Hardware Repair</h3>
+<p>Perbaikan PC dan Laptop.</p>
+</div>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
